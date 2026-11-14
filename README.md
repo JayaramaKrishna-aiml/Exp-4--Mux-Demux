@@ -134,7 +134,8 @@ o	Y1
 •	Confirm that Y0 and Y1 are never both high at the same time, since only one output is active per select value.
 The waveform should agree with the truth table.
 
-## Expected Result
+
+
 
 The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 
@@ -144,7 +145,8 @@ The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 ## Output
-<img width="1873" height="947" alt="Screenshot 2026-10-23 161237" src="https://github.com/user-attachments/assets/58178d9a-e769-480b-b870-1b3bd8ea3227" />
+<img width="1873" height="947" alt="Screenshot 2026-10-23 161237" src="https://github.com/user-attachments/assets/5ec6a02e-47ee-4990-ac6c-dbf57f4426aa" />
+
 
 
 ## Viva-Voce Questions
