@@ -14,8 +14,8 @@ Boolean Functions
 
 
 ## Design / RTL Program
-
-```module mux2to1 (
+```
+module mux2to1 (
     input  wire A,      // input line 0
     input  wire B,      // input line 1
     input  wire S,      // select line
@@ -78,7 +78,8 @@ endmodule```
  
         #10 $finish;
     end
-endmodule```
+endmodule
+```
 
 
 ## Truth Table
@@ -145,8 +146,7 @@ The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 ## Output
-<img width="1873" height="947" alt="Screenshot 2026-10-23 161237" src="https://github.com/user-attachments/assets/5ec6a02e-47ee-4990-ac6c-dbf57f4426aa" />
-
+<img src="https://github.com/user-attachments/assets/5ec6a02e-47ee-4990-ac6c-dbf57f4426aa" width="700">
 
 
 ## Viva-Voce Questions
